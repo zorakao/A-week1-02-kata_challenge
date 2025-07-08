@@ -1,0 +1,62 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+}
+
+/* *{
+    outline: 1px solid pink;
+} */
+
+
+
+.container{
+    width: 630px;
+    margin: 0 auto;
+}
+
+
+.d-flex{
+    display: flex;
+}
+
+.mb-6{
+    margin-bottom: 24px;
+}
+
+.img-1{
+    display: block;
+    width: 100%;
+    width: 96px;
+    height: 96px;
+}
+
+.img-2{
+    display: block;
+    width: 100%;
+    width: 216px;
+    height: 216px;
+}
+
+.center{
+    margin: 0 20px;
+}
+.center h2{
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.center p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+.footer{
+    width: 630px;
+    margin: 0 auto;
+    padding: 48px;
+    text-align: center;
+    background-color: gray;
+}
+
+.footer p{
+    font-size: 16px;
+    line-height: 1.5;
+}
